@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "GilroyMedium";
+    src: url(../fonts/GilroyMedium.woff);
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "GilroySemiBold";
+    src: url(../fonts/GilroySemiBold.woff);
+    font-display: swap;
+  }
+
+
+  body{
+    font-family: "GilroyMedium";;
+    color: red;
+    margin: 0px;
+    background-color: #F6F8FC;
+  }
+
+  p{
+    margin: 0px;
+  }
+
+
+  .wrap-all{
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .footer-illustration{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1280px;
+  }
+
+  .content{
+    max-width: 603px;
+    margin: 0 auto;
+    padding-top: 10% ;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+
+  .logo{
+    margin: 0 auto;
+    width: 129px;
+    padding-bottom: 10%;
+  }
+
+  .name{
+    font-family: 'GilroySemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #434A5A;
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .description{
+    font-family: 'GilroyMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #212E35;
+    margin-bottom: 40px;
+  }
+
+  .we-work{
+    font-family: 'GilroySemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+
+    color: #434A5A;
+    margin-bottom: 40px;
+  }
+
+  .work-links {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;    
+    color: #8E95A6;
+    text-decoration: none;
+    margin: 0px 10px;
+    transition: all ease 0.3s;
+    text-align: center;
+  }
+  .work-links:hover{
+        color: #000;
+  }
+  .phones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;;
+  }
+
+  .mail-link{
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  @media screen and (max-height: 830px){
+    .content{
+        padding-top: 5% ;    
+      }
+
+  }
+
+  @media screen and (max-height: 730px){
+    .content{
+        padding-top: 50px; ;    
+      }
+      .logo{
+        padding: 30px;
+      }
+      .we-work{
+        margin-bottom: 20px;;
+      }
+  }
+
+  @media screen and (max-height: 690px){
+    .content{
+        padding-top: 30px ;    
+      }
+
+  }
+
+  @media screen and (max-height: 680px){
+    .wrap-all{
+        height: auto;;
+        padding-bottom: 220px;;
+    }
+  }
+
+
+  
+
+  @media screen and (max-width: 670px){
+    .name {
+        font-size: 29px;       
+        margin-bottom: 9px;
+
+    }
+    .content{
+        padding-top: 15px;;
+    }
+    .description{
+        font-size: 16px;
+        line-height: 18px;;
+    }
+    .we-work{
+        font-size: 20px;;
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    .phones{
+        flex-direction: column;
+    }
+  }
