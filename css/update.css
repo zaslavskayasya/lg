@@ -52,6 +52,7 @@
     margin: 0 auto;
     width: 129px;
     padding-bottom: 10%;
+    padding-top:15px;
   }
 
   .name{
@@ -142,14 +143,18 @@
 
   }
 
-  @media screen and (max-height: 680px){
+  @media screen and (max-height: 789px){
     .wrap-all{
         height: auto;;
         padding-bottom: 220px;;
     }
   }
 
-
+@media screen and (max-width: 970px){
+    .footer-illustration{
+        width: 900px;
+    }
+}
   
 
   @media screen and (max-width: 670px){
@@ -168,7 +173,10 @@
     .we-work{
         font-size: 20px;;
     }
+
   }
+
+
 
   @media screen and (max-width: 450px){
     .phones{
