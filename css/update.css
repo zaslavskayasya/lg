@@ -143,10 +143,10 @@
 
   }
 
-  @media screen and (max-height: 789px){
+  @media screen and (max-height: 630px){
     .wrap-all{
-        height: auto;;
-        padding-bottom: 220px;;
+        padding-bottom: 82px;
+        /* padding-bottom: 220px;; */
     }
   }
 
@@ -156,7 +156,7 @@
     }
     .wrap-all{
         height: 100vh;
-        padding-bottom: 220px;;
+        /* padding-bottom: 220px;; */
     }
 }
   
